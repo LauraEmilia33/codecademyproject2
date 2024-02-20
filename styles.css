@@ -1,0 +1,197 @@
+body {
+  background-color: #353839;
+  padding: 30px;
+}
+
+h1 {
+  font-family: "Spline Sans Mono", monospace;
+  color: whitesmoke;
+}
+
+p {
+  font-family: monospace, sans-serif;
+  font-size: 15px;
+  color: whitesmoke;
+}
+
+a {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #63e39c;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: "Spline Sans Mono", monospace;
+}
+/*---Header---*/
+.h1header {
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  color: whitesmoke;
+  font-family: "Spline Sans Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/*---Breadcrumb---*/
+.breadcrumb {
+  padding-left: 0;
+  font-family: monospace;
+
+  text-align: center;
+}
+
+.breadcrumb a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.breadcrumb > li {
+  display: inline;
+}
+
+.breadcrumb li + li::before {
+  padding: 10px;
+  content: "/";
+  color: whitesmoke;
+}
+
+.breadcrumb a:hover {
+  color: #63e39c;
+  text-decoration: underline;
+}
+
+.breadcrumb a:active {
+  font-weight: bold;
+  color: #63e39c;
+}
+
+/*------Home-------*/
+
+.codecademylink,
+.goldmeltslink {
+  color: whitesmoke;
+}
+
+.homechalk {
+  width: 600px;
+  padding-top: 30px;
+  margin: 0 auto;
+  display: block;
+  opacity: 0.6;
+}
+
+/*------Colours-------*/
+
+.h2header {
+  text-align: center;
+  padding-top: 15px;
+  color: whitesmoke;
+}
+
+.colorimg {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: monospace;
+}
+
+table,
+th,
+td {
+  border: 1px solid whitesmoke;
+}
+
+td {
+  color: whitesmoke;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: whitesmoke;
+}
+
+/*-----Fonts-----*/
+.fonttable a {
+  font-size: 45px;
+  text-decoration: none;
+}
+
+.fonttable {
+  text-align: center;
+}
+
+/*-----Text Styles----*/
+
+.header {
+  background-color: #63e39c;
+  color: #353839;
+  padding: 40px;
+}
+
+.h1text {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Spline Sans Mono";
+  font-weight: 800;
+  color: #353839;
+}
+
+.navigation {
+  background-color: whitesmoke;
+  color: #353839;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 800;
+  font-family: monospace;
+}
+
+.main-content {
+  background-color: #63e39c;
+  color: #353839;
+  padding: 200px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Spline Sans Mono";
+  font-weight: 800;
+}
+
+.footer {
+  background-color: whitesmoke;
+  color: #353839;
+  padding: 20px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 800;
+  font-family: monospace;
+}
